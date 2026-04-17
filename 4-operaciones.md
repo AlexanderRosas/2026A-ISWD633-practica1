@@ -6,10 +6,13 @@ docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ```
 # COMPLETAR
 ### ¿Para qué se usa el comando ls?
+Se utiliza para listar el contenido (archivos y directorios) de la ruta actual o una ruta especificada dentro del sistema de archivos.
 ### ¿Para qué sirve el argumento -l junto al comando ls?
+Sirve para mostrar el contenido en formato largo, detallando permisos, propietario, grupo, tamaño del archivo y fecha de última modificación.
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
+<img width="1075" height="456" alt="image" src="https://github.com/user-attachments/assets/b1fe4ca7-9fa8-4f33-9a46-ef11e233a25d" />
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
 El comando **docker exec** te permite acceder a la sesión shell de un contenedor en ejecución, estarás dentro del contenedor y podrás ejecutar comandos como si estuvieras en una terminal normal. 
@@ -48,6 +51,9 @@ Ejecutar
 ```
 whoami
 ```
+
+<img width="1295" height="118" alt="image" src="https://github.com/user-attachments/assets/551455e4-cb0a-4749-846a-27f2e3b336e1" />
+
 # COLOCAR UNA CAPTURA DE PANTALLA
 
 **Si se visualiza el mensaje command not found, considerar**
@@ -65,12 +71,17 @@ docker exec -i-t <nombre contenedor> <programa o comando>
 ```
 docker exec -it <nombre contenedor> <programa o comando>
 ```
+<img width="1066" height="76" alt="image" src="https://github.com/user-attachments/assets/a64e6d0c-3e29-4178-8b48-1b56c29c3ef1" />
 
 ### Ahora puedes acceder al contenedor de jenkins y obtener la contraseña ubicada en /var/jenkins_home/secrets/initialAdminPassword
+<img width="662" height="77" alt="image" src="https://github.com/user-attachments/assets/756e6fc1-8a4c-4a1e-8b38-902d0aa3ec9f" />
 
 # COMPLETAR
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
+<img width="1230" height="851" alt="image" src="https://github.com/user-attachments/assets/83ca6b7a-a374-4120-996b-998e4be0e936" />
+<img width="1207" height="853" alt="image" src="https://github.com/user-attachments/assets/32db11c2-62e6-4344-a51c-715da2c9773a" />
+
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
