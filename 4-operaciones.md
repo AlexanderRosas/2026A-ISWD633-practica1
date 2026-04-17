@@ -80,7 +80,6 @@ docker exec -it <nombre contenedor> <programa o comando>
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
 <img width="1230" height="851" alt="image" src="https://github.com/user-attachments/assets/83ca6b7a-a374-4120-996b-998e4be0e936" />
-<img width="1207" height="853" alt="image" src="https://github.com/user-attachments/assets/32db11c2-62e6-4344-a51c-715da2c9773a" />
 
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
