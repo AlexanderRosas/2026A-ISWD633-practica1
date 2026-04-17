@@ -72,7 +72,7 @@ docker rmi hello-world
 Eliminar la imagen hello-world 
 # COMPLETAR
 
-<img width="1065" height="105" alt="image" src="https://github.com/user-attachments/assets/21ec08ca-b519-4e9a-bde4-39738b4d8c9a" />
+
 
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
@@ -82,5 +82,6 @@ Eliminar una imagen no afecta a los contenedores que se han creado a partir de e
 Es una buena práctica detener y eliminar todos los contenedores que dependan de una imagen antes de eliminar la imagen en sí.
 
 ```
-docker rmi -f <nombre imagen>:<tag>
+docker rmi hello-world
 ```
+<img width="1065" height="105" alt="image" src="https://github.com/user-attachments/assets/21ec08ca-b519-4e9a-bde4-39738b4d8c9a" />
